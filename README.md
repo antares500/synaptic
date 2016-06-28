@@ -1,4 +1,4 @@
-synaptic [! [Build Status](https://travis-ci.org/cazala/synaptic.svg?branch=master)](https://travis-ci.org/cazala/synaptic)
+synaptic [![Build Status](https://travis-ci.org/cazala/synaptic.svg?branch=master)](https://travis-ci.org/cazala/synaptic)
 ========
 
 Synaptic es una biblioteca de redes neuronales Javascript para **Node.js** y el **navegador**, su algoritmo generalizado está libre de la arquitectura, para que pueda construir y formar básicamente cualquier tipo de primer orden o incluso con arquitecturas de [redes neuronales de segundo orden](http://en.wikipedia.org/wiki/Recurrent_neural_network#Second_Order_Recurrent_Neural_Network).
