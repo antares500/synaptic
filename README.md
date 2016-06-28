@@ -1,74 +1,73 @@
-Synaptic [![Build Status](https://travis-ci.org/cazala/synaptic.svg?branch=master)](https://travis-ci.org/cazala/synaptic)
+synaptic [! [Build Status](https://travis-ci.org/cazala/synaptic.svg?branch=master)](https://travis-ci.org/cazala/synaptic)
 ========
 
-Synaptic is a javascript neural network library for **node.js** and the **browser**, its generalized algorithm is architecture-free, so you can build and train basically any type of first order or even [second order neural network](http://en.wikipedia.org/wiki/Recurrent_neural_network#Second_Order_Recurrent_Neural_Network) architectures.
+Synaptic es una biblioteca de redes neuronales Javascript para **Node.js** y el **navegador**, su algoritmo generalizado está libre de la arquitectura, para que pueda construir y formar básicamente cualquier tipo de primer orden o incluso con arquitecturas de [redes neuronales de segundo orden](http://en.wikipedia.org/wiki/Recurrent_neural_network#Second_Order_Recurrent_Neural_Network).
 
-This library includes a few built-in architectures like [multilayer perceptrons](http://en.wikipedia.org/wiki/Multilayer_perceptron), [multilayer long-short term memory](http://en.wikipedia.org/wiki/Long_short_term_memory) networks (LSTM), [liquid state machines](http://en.wikipedia.org/wiki/Liquid_state_machine) or [Hopfield](http://en.wikipedia.org/wiki/Hopfield_network) networks, and a trainer capable of training any given network, which includes built-in training tasks/tests like solving an XOR, completing a Distracted Sequence Recall task or an [Embedded Reber Grammar](http://www.willamette.edu/~gorr/classes/cs449/reber.html) test, so you can easily test and compare the performance of different architectures.
-
-
-The algorithm implemented by this library has been taken from Derek D. Monner's paper:
-
-[A generalized LSTM-like training algorithm for second-order recurrent neural networks](http://www.overcomplete.net/papers/nn2012.pdf)
+Esta biblioteca incluye algunas arquitecturas integradas como [perceptrones multicapa](http://en.wikipedia.org/wiki/Multilayer_perceptron), [memoria de múltiples capas a largo corto plazo](http://en.wikipedia.org/wiki / Long_short_term_memory) redes (LSTM), [máquinas de estado líquido](http://en.wikipedia.org/wiki/Liquid_state_machine) o [Hopfield](http://en.wikipedia.org/wiki/Hopfield_network) redes, y un entrenador capaz de formar una red dada, que incluye una función de tareas de formación/pruebas como la solución de un XOR, completar una tarea Secuencia distraída Recall o un [Embedded Reber Gramática](http://www.willamette.edu/~gorr/clases/cs449/reber.html) de prueba, por lo que puede probar y comparar el rendimiento de diferentes arquitecturas fácilmente.
 
 
-There are references to the equations in that paper commented through the source code.
+El algoritmo implementado por esta biblioteca se ha tomado de papel de Derek D. Monner:
 
-####Introduction
+[Un algoritmo de entrenamiento LSTM similar generalizada de redes neuronales recurrentes de segundo orden](http://www.overcomplete.net/papers/nn2012.pdf)
 
-If you have no prior knowledge about Neural Networks, you should start by [reading this guide](https://github.com/cazala/synaptic/wiki/Neural-Networks-101).
+Hay referencias a las ecuaciones en que el papel comentado a través del código fuente.
 
+####Introducción
 
-If you want a practical example on how to feed data to a neural network, then take a look at [this article](https://github.com/cazala/synaptic/wiki/Normalization-101).
-
-You may also want to take a look at [this article](http://blog.webkid.io/neural-networks-in-javascript/).
-
-####Demos
-
-- [Solve an XOR](http://synaptic.juancazala.com/#/xor)
-- [Discrete Sequence Recall Task](http://synaptic.juancazala.com/#/dsr)
-- [Learn Image Filters](http://synaptic.juancazala.com/#/image-filters)
-- [Paint an Image](http://synaptic.juancazala.com/#/paint-an-image)
-- [Self Organizing Map](http://synaptic.juancazala.com/#/self-organizing-map)
-- [Read from Wikipedia](http://synaptic.juancazala.com/#/wikipedia)
-
-The source code of these demos can be found in [this branch](https://github.com/cazala/synaptic/tree/gh-pages/scripts).
-
-####Getting started
-
-- [Neurons](https://github.com/cazala/synaptic/wiki/Neurons/)
-- [Layers](https://github.com/cazala/synaptic/wiki/Layers/)
-- [Networks](https://github.com/cazala/synaptic/wiki/Networks/)
-- [Trainer](https://github.com/cazala/synaptic/wiki/Trainer/)
-- [Architect](https://github.com/cazala/synaptic/wiki/Architect/)
+Si usted no tiene conocimiento previo acerca de redes neuronales, usted debe comenzar por [leer esta guía](https://github.com/cazala/synaptic/wiki/Neural-Networks-101).
 
 
-##Overview
+Si quieres un ejemplo práctico sobre cómo alimentar datos a una red neuronal, a continuación, echar un vistazo a [este artículo](https://github.com/cazala/synaptic/wiki/Normalization-101).
 
-###Installation
+También es posible que desee echar un vistazo a [este artículo] (http://blog.webkid.io/neural-networks-in-javascript/).
 
-#####In node
+####Demostraciones
 
-You can install synaptic with [npm](http://npmjs.org):
+- [Resolver un XOR](http://synaptic.juancazala.com/#/xor)
+- [Discreta secuencia de tareas Recall](http://synaptic.juancazala.com/#/dsr)
+- [Aprender filtros de imagen](http://synaptic.juancazala.com/#/image-filters)
+- [Pintar una imagen](http://synaptic.juancazala.com/#/paint-an-image)
+- [Mapa autoorganizado](http://synaptic.juancazala.com/#/self-organizing-map)
+- [Leer de Wikipedia](http://synaptic.juancazala.com/#/wikipedia)
+
+El código fuente de estas demostraciones se pueden encontrar en [esta rama](https://github.com/cazala/synaptic/tree/gh-pages/scripts).
+
+####Empezando
+
+- [Neuronas](https://github.com/cazala/synaptic/wiki/Neurons/)
+- [Capas](https://github.com/cazala/synaptic/wiki/Layers/)
+- [Redes](https://github.com/cazala/synaptic/wiki/Networks/)
+- [Entrenador](https://github.com/cazala/synaptic/wiki/Trainer/)
+- [Arquitectura](https://github.com/cazala/synaptic/wiki/Architect/)
+
+
+##Visión de conjunto
+
+###Instalación
+
+#####Node.js
+
+Se puede instalar con sináptica [MNP](http://npmjs.org):
 
 ```cmd
 npm install synaptic --save
 ```
 
-#####In the browser
+#####En el navegador
 
-You can install synaptic with [bower](http://bower.io):
+Se puede instalar con sináptica [glorieta](http://bower.io):
 
 ```cmd
 bower install synaptic
 ```
 
-Or you can simply use the CDN link, kindly provided by [CDNjs](https://cdnjs.com/)
+O simplemente puede usar el enlace de CDN, proporcionado amablemente por [CDNjs] (https://cdnjs.com/)
 
 ```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/synaptic/1.0.4/synaptic.min.js"></script>
 ```
 
-###Usage
+###Uso
 
 ```javascript
 var synaptic = require('synaptic'); // this line is not needed in the browser
@@ -79,9 +78,9 @@ var Neuron = synaptic.Neuron,
 	Architect = synaptic.Architect;
 ```
 
-Now you can start to create networks, train them, or use built-in networks from the [Architect](http://github.com/cazala/synaptic#architect).
+Ahora puede empezar a crear redes, entrenarlos, o utilizar las redes construidas a partir de la [Arquitecto](http://github.com/cazala/synaptic#architect).
 
-###Gulp Tasks
+### Tareas Gulp
 
 - **gulp**: runs all the tests and builds the minified and unminified bundles into `/dist`.
 - **gulp build**: builds the bundle: `/dist/synaptic.js`.
@@ -90,11 +89,11 @@ Now you can start to create networks, train them, or use built-in networks from 
 - **gulp dev**: same as `gulp debug`, but watches the source files and rebuilds when any change is detected.
 - **gulp test**: runs all the tests.
 
-###Examples
+###Ejemplos
 
 #####Perceptron
 
-This is how you can create a simple **perceptron**:
+Se trata de cómo se puede crear un simple **perceptrón**:
 
 ![perceptron](http://www.codeproject.com/KB/dotnet/predictor/network.jpg).
 
@@ -123,7 +122,7 @@ Perceptron.prototype = new Network();
 Perceptron.prototype.constructor = Perceptron;
 ```
 
-Now you can test your new network by creating a trainer and teaching the perceptron to learn an XOR
+Ahora puede probar su nueva red mediante la creación de un entrenador y enseñar el perceptrón para aprender un XOR
 
 ```javascript
 var myPerceptron = new Perceptron(2,3,1);
@@ -137,11 +136,11 @@ myPerceptron.activate([0,1]); // 0.9831714267395621
 myPerceptron.activate([1,1]); // 0.02128894618097928
 ```
 
-#####Long Short-Term Memory
+#####Memoria a Largo Corto Plazo
 
-This is how you can create a simple **long short-term memory** network with input gate, forget gate, output gate, and peephole connections:
+Se trata de cómo se puede crear un simple memoria a largo ** ** corto plazo a la red con la puerta de entrada, olvidar puerta, puerta de salida, y las conexiones de mirilla:
 
-![long short-term memory](http://people.idsia.ch/~juergen/lstmcell4.jpg)
+![Memoria a largo corto plazo] (http://people.idsia.ch/~juergen/lstmcell4.jpg)
 
 ```javascript
 function LSTM(input, blocks, output)
@@ -192,13 +191,12 @@ LSTM.prototype = new Network();
 LSTM.prototype.constructor = LSTM;
 ```
 
-These are examples for explanatory purposes, the [Architect](https://github.com/cazala/synaptic/wiki/Architect/) already includes Multilayer Perceptrons and
-Multilayer LSTM network architectures.
+Estos son ejemplos de las explicaciones, la [Arquitectura](https://github.com/cazala/synaptic/wiki/Architect/) ya incluye múltiples capas de perceptrones y arquitecturas de red multicapa LSTM.
 
-##Contribute
+##Contribuir
 
-**Synaptic** is an Open Source project that started in Buenos Aires, Argentina. Anybody in the world is welcome to contribute to the development of the project.
+**Synaptic** es un proyecto Open Source que se inició en Buenos Aires, Argentina. Cualquiera en el mundo es bienvenido a contribuir al desarrollo del proyecto.
 
-If you want to contribute feel free to send PR's, just make sure to run the default **gulp** task before submiting it. This way you'll run all the test specs and build the web distribution files.
+Si quieres contribuir dude en enviar respuestas, sólo asegúrese de que todo se ejecuta por defecto **gulp** antes de enviar. De esta manera se encontrará con todas las especificaciones de prueba y construir los archivos de distribución web.
 
 <3
