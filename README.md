@@ -14,7 +14,7 @@ Hay referencias a las ecuaciones en que el papel comentado a través del código
 
 ####Introducción
 
-Si usted no tiene conocimiento previo acerca de redes neuronales, usted debe comenzar por [leer esta guía](https://github.com/cazala/synaptic/wiki/Neural-Networks-101).
+Si no tienes conocimiento previo acerca de redes neuronales, debe comenzar por [leer esta guía](https://github.com/cazala/synaptic/wiki/Neural-Networks-101).
 
 
 Si quieres un ejemplo práctico sobre cómo alimentar datos a una red neuronal, a continuación, echar un vistazo a [este artículo](https://github.com/cazala/synaptic/wiki/Normalization-101).
